@@ -1,0 +1,37 @@
+html {
+    background: url(bg.jpg);
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.4), rgba(255,255,255,.6)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    min-height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-shadow: -2px 2px 5px white;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+button {
+    background: white;
+    font-family: 'Lora', serif;
+    margin-top: 50px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background: transparent;
+}
+
+.hidden {
+    display: none;
+}
